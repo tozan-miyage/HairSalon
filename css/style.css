@@ -1,0 +1,130 @@
+body {
+    font-family: "ＭＳ 明朝",
+        "YuMincho",
+        "Hiragino Mincho Pro", serif, sans-serif, monospace;
+    text-align: center;
+}
+
+.col-sm-12 {
+    padding: 0;
+}
+
+i {
+    display: block;
+}
+
+.menu_contents .icon {
+    width: 1.6rem;
+    height: 1.6rem;
+}
+
+.top_image {
+    margin-top: 3.5rem;
+    position: relative;
+    width: 100%;
+    padding: 0;
+    background-color: black;
+}
+
+.top_image_photo {
+    width: 100%;
+    opacity: 0.6;
+}
+
+.top_image_content {
+    position: absolute;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 3rem;
+    color: white;
+}
+
+.top_image_content h1 {
+    font-size: 2rem;
+}
+
+.top_image_content p {
+    display: none;
+}
+
+.top_image_content h1 {
+    font-size: 1.6rem;
+}
+
+.icon {
+    width: 2rem;
+    height: 2rem;
+}
+
+.caption {
+    margin-top: 2rem;
+}
+
+.caption h3 {
+    font-size: 1.6rem;
+    margin: 0;
+}
+
+.menu_contents {
+    margin-top: 2rem;
+}
+
+.menu_contents h2 {
+    font-size: 1.6rem;
+    display: inline;
+    line-height: 1.4rem;
+    vertical-align: bottom;
+}
+
+.menu_contents p {
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+#styles {
+    background-color: #E4E7EB;
+    padding-top: 1rem;
+}
+
+.style_type {
+    display: flex;
+    padding: 0;
+    justify-content: space-around;
+}
+
+.style_type li {
+    list-style: none;
+    margin: 3px;
+}
+
+.style_type {
+    background-color: #E4E7EB;
+    padding: 1rem 0;
+    margin: 0;
+}
+
+.style_type_photo img {
+    width: 100%;
+}
+
+.menu_list {
+    margin: 1rem 0;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+}
+
+.order {
+    width: 50%;
+    padding-left: 15%;
+}
+
+._price {
+    width: 50%;
+    padding-left: 15%;
+}

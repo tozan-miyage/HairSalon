@@ -9,6 +9,7 @@ body {
     padding: 0;
 }
 
+
 i {
     display: block;
 }
@@ -196,16 +197,6 @@ i {
 .infomation {
     width: 40%;
 }
-
-/* .google_map_ajax {
-    width: 320px;
-    height: 320px; */
-    /* max-width: 320px;
-    max-height: 320px; */
-    /* background-color: aqua; */
-    /* margin: 0 auto; */
-    /* margin-top: 3rem; */
-/* } */
 
 .footer_nav {
     display: flex;

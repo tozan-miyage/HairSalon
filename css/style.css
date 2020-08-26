@@ -72,6 +72,7 @@ i {
 
 .menu_contents {
     margin-top: 2rem;
+    padding: 1rem;
 }
 
 .menu_contents h2 {
@@ -86,8 +87,13 @@ i {
     padding: 1rem;
 }
 
-#styles {
+.gray_wrapper {
     background-color: #E4E7EB;
+    width: 100%;
+}
+
+#styles {
+    /* background-color: #E4E7EB; */
     padding-top: 1rem;
 }
 
@@ -103,13 +109,17 @@ i {
 }
 
 .style_type {
-    background-color: #E4E7EB;
+    /* background-color: #E4E7EB; */
     padding: 1rem 0;
     margin: 0;
 }
 
+.style_imgs {
+    padding-bottom: 3rem;
+}
+
 .style_type_photo img {
-    width: 100%;
+    width: 90%;
 }
 
 .menu_list {
@@ -127,4 +137,93 @@ i {
 ._price {
     width: 50%;
     padding-left: 15%;
+}
+
+.stylist_img {
+    margin-top: 2rem;
+}
+
+.stylist_img img {
+    width: 50%;
+}
+
+.stylist_info {
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+.stylist_info p {
+    padding: 1rem;
+}
+
+.sns_icons {
+    display: flex;
+    justify-content: center;
+}
+
+.sns_icons div {
+    margin: .5rem;
+}
+
+.sns_ajax {
+    width: 320px;
+    height: 568px;
+    max-width: 320px;
+    max-height: 568px;
+    background-color: aqua;
+    margin: 1rem auto;
+}
+
+.accsess_infomation {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    margin-top: 2rem;
+}
+
+.access_caption {
+    width: 20%;
+}
+
+.infomation {
+    width: 40%;
+}
+
+.google_map_ajax{
+    width: 320px;
+    height: 320px;
+    max-width: 320px;
+    max-height: 320px;
+    background-color: aqua;
+    margin: 0 auto;
+    margin-top: 3rem;
+}
+
+.footer_nav {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    margin-bottom: 0;
+}
+
+.footer_nav li {
+    width: 20%;
+    list-style: none;
+}
+
+.footer_nav li a{
+    color:white;
+}
+
+
+
+.dark_gray_wrpper{
+    margin: 0 auto;
+    background-color: #707070;
+}
+
+.copyright{
+    color:white;
+    font-size: 12px;
 }

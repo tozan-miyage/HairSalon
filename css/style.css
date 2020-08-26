@@ -90,6 +90,7 @@ i {
 .gray_wrapper {
     background-color: #E4E7EB;
     width: 100%;
+    padding: 0;
 }
 
 #styles {
@@ -122,8 +123,11 @@ i {
     width: 90%;
 }
 
+.menu_lists {
+    margin: 2rem 0;
+}
+
 .menu_list {
-    margin: 1rem 0;
     display: flex;
     justify-content: center;
     text-align: left;
@@ -165,13 +169,17 @@ i {
     margin: .5rem;
 }
 
-.sns_ajax {
-    width: 320px;
-    height: 568px;
+.sns_ajax, .google_map_ajax {
+    width: 90%;
+    height: 468px;
     max-width: 320px;
-    max-height: 568px;
     background-color: aqua;
-    margin: 1rem auto;
+    margin: 0 auto;
+    margin-bottom:2rem;
+}
+
+.accsess_infomations {
+    margin: 1rem 0;
 }
 
 .accsess_infomation {
@@ -179,7 +187,6 @@ i {
     display: flex;
     justify-content: center;
     text-align: left;
-    margin-top: 2rem;
 }
 
 .access_caption {
@@ -190,15 +197,15 @@ i {
     width: 40%;
 }
 
-.google_map_ajax{
+/* .google_map_ajax {
     width: 320px;
-    height: 320px;
-    max-width: 320px;
-    max-height: 320px;
-    background-color: aqua;
-    margin: 0 auto;
-    margin-top: 3rem;
-}
+    height: 320px; */
+    /* max-width: 320px;
+    max-height: 320px; */
+    /* background-color: aqua; */
+    /* margin: 0 auto; */
+    /* margin-top: 3rem; */
+/* } */
 
 .footer_nav {
     display: flex;
@@ -212,18 +219,23 @@ i {
     list-style: none;
 }
 
-.footer_nav li a{
-    color:white;
+.footer_nav li a {
+    color: white;
 }
 
 
 
-.dark_gray_wrpper{
+.dark_gray_wrpper {
     margin: 0 auto;
     background-color: #707070;
 }
 
-.copyright{
-    color:white;
+.copyright {
+    color: white;
     font-size: 12px;
+}
+
+.copyright p {
+    margin: 0;
+    padding-bottom: 1rem;
 }
